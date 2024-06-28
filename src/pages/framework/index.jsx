@@ -16,6 +16,7 @@ export default function Framework() {
 // }
   return (
     <>
+    <h1>lolsad</h1>
       <form className="p-10 flex gap-5" onSubmit={handleSubmit(onSubmit)}>
         <Controller
           name="firstName"
