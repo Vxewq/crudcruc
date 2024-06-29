@@ -1,6 +1,5 @@
 import axios from "axios";
 
-export const backend = axios({
-    baseURL: 'https://crudcrud.com/api/d4adae0c56a24a0da1973cc76a09438b',
-})
-
+export const backend = axios.create({
+  baseURL: "https://crudcrud.com/api/7d6c52dc6c1f41018270470da801ff91",
+});
